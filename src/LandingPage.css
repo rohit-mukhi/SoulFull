@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fascinate-inline-regular {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fascinate-regular {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#logo {
+    color: aliceblue;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+
+.navbar {
+    background-color: #8BAE66;
+    z-index: 1000;
+}
+
+/* Ensure dropdown is visible */
+.dropdown-menu {
+    z-index: 1050 !important;
+}
+
+/* Section styling */
+#home {
+    background: #d6c19b;
+    background-image: url('assets/background-home.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#login {
+    background: #d6c19b;
+    background-image: url('assets/background-home.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#signup {
+    background: #d6c19b;
+    background-image: url('assets/background-home.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#chat {
+    background: #d6c19b;
+    background-image: url('assets/background-home.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.text {
+    color: #452829;
+}
+
+.get-started {
+    color: #452829;
+    background: #EBD5AB;
+    outline: none;
+    border: 3px solid #452829;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.get-started:hover {
+    background: #8BAE66;
+}
